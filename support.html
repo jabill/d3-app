@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — D³ Daily Diet Diary</title>
+  <meta name="description" content="Get help with D³ Daily Diet Diary. Contact support, find troubleshooting tips, and access resources.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">
+    <svg class="triLeaf" width="32" height="32" viewBox="0 0 100 100">
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(-90)" fill="#4ade80" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(30)" fill="#74b9ff" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(150)" fill="#fbbf24" opacity="0.9"/>
+      <circle cx="54" cy="46" r="9" fill="#1c3354"/>
+    </svg>
+    <span class="nav-logo-text"><span>D³</span> Daily Diet Diary</span>
+  </a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="features.html">Features</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+    <li><a href="support.html" class="active">Support</a></li>
+    <li><a href="privacy-policy.html">Privacy</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <h1>Support</h1>
+  <p>We're here to help. Most questions are answered in the FAQs — for everything else, reach out directly.</p>
+</div>
+
+<div class="section" style="max-width: 800px; margin: 0 auto;">
+
+  <!-- Contact card -->
+  <h2 class="section-title" style="font-size: 22px; margin-bottom: 20px;">Contact Us</h2>
+
+  <div class="contact-card">
+    <h3>📧 Email Support</h3>
+    <p>For bug reports, feature requests, or any questions about D³. We typically respond within 1–2 business days.</p>
+    <a href="mailto:gteam@jackedarts.com?subject=D³ Daily Diet Diary Support">Email gteam@jackedarts.com</a>
+  </div>
+
+  <div class="contact-card">
+    <h3>📖 Frequently Asked Questions</h3>
+    <p>Many common questions are already answered in our FAQ section — including how QUAL works, what S&S tracks, how Correlations are computed, and more.</p>
+    <a href="faqs.html">Browse FAQs</a>
+  </div>
+
+  <div class="contact-card">
+    <h3>📄 Features Reference</h3>
+    <p>A complete guide to every feature in D³ — each tab, each chart, and how to get the most out of the app.</p>
+    <a href="features.html">View All Features</a>
+  </div>
+
+  <!-- Troubleshooting -->
+  <h2 class="section-title" style="font-size: 22px; margin: 40px 0 16px;">Common Troubleshooting</h2>
+
+  <div class="faq-list">
+
+    <div class="faq-item">
+      <button class="faq-q">
+        The app feels slow or data takes a long time to load.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        D³ reads your logs directly from local storage each time you open a screen. On the History/Trends view with a long date range (6M, 1Y, or ALL), loading can take a few seconds as it processes every week of data. This is normal. If performance feels unusually slow, try switching to the 3M range to see if that's faster. If the app is consistently sluggish, try force-closing and reopening it.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">
+        I updated the app and some settings were reset.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        App updates preserve your logged data (entries, tags, exercise logs, etc.) since they're stored using your device's local storage. However, some settings stored in a different way may occasionally reset during a major version update. If you notice something missing, check Settings — most preferences can be re-applied in under a minute.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">
+        The Correlations card isn't showing.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        The Correlations card only appears when there's a statistically meaningful pattern to show. It requires at least 30 days of logged entries. For food correlations, you'll need a food attribute marked as "watching" in Settings → Foods with at least 3 logged exposure days. For medication correlations, you need a medication change event in Settings → Medications plus at least 37 days since the change (default lag of 30 + 7 day buffer), with both before and after data. If conditions aren't met, the card stays hidden — that's intentional.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">
+        The weight chart isn't showing my latest entry.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        Weight is logged per week-start date (Monday). If you entered your weight but haven't yet reached the start of the next week, the chart may show one fewer data point than expected. Try navigating to the Today tab, scrolling to the weight section, and confirming the value was saved. Pull down on the trends screen to refresh if needed.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">
+        I can't find how to delete a day's entry.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        Navigate to the History tab, tap List view, and find the day you want to modify. Tap the row to go to that day's Today view, where you can edit or clear individual fields. There is currently no "delete entire day" button — clearing all fields (QUAL to 0, S&S to 0, blank meal notes) effectively removes the day from your trends.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">
+        The report I shared looks different from the on-screen view.
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-a">
+        Reports are generated as PDF files (or HTML for weekly reports) with a fixed layout designed for print. The Weekly Report uses landscape orientation with seven columns — one per day. The Monthly Report is portrait with a calendar grid and weekly summary table. The Trends Report is landscape with tables by category. These are designed to be printed or shared as documents, not to mirror the in-app charts pixel-for-pixel.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- About -->
+  <h2 class="section-title" style="font-size: 22px; margin: 40px 0 16px;">About D³</h2>
+
+  <div style="background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; font-size: 15px; color: var(--text); line-height: 1.7;">
+    <p><strong>D³ Daily Diet Diary</strong> is published by <strong>Jacked Arts L.L.C.</strong></p>
+    <p style="margin-top: 12px;">
+      <strong>Email:</strong> <a href="mailto:gteam@jackedarts.com" style="color: var(--green);">gteam@jackedarts.com</a><br>
+      <strong>Address:</strong> 2622 31st Street NW, Washington, DC 20008<br>
+      <strong>Version:</strong> 1.0.0<br>
+      <strong>Bundle ID (iOS):</strong> com.jackedarts.dailydietdiary<br>
+      <strong>Package (Android):</strong> com.jackedarts.dailydietdiary
+    </p>
+    <p style="margin-top: 12px;"><a href="privacy-policy.html" style="color: var(--green); font-weight: 700;">Privacy Policy</a></p>
+  </div>
+
+</div>
+
+<div style="height: 60px;"></div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="support.html">Support</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </div>
+  <p>© 2025 Jacked Arts L.L.C. &nbsp;·&nbsp; D³ Daily Diet Diary &nbsp;·&nbsp; <a href="mailto:gteam@jackedarts.com">gteam@jackedarts.com</a></p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+</script>
+</body>
+</html>

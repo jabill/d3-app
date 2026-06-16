@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D³ Daily Diet Diary — Personal Nutrition & Wellness Tracker</title>
+  <meta name="description" content="D³ Daily Diet Diary helps you track meals, exercise, health notes, and weight — privately, on your device. No accounts, no ads, no cloud.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a class="nav-brand" href="index.html">
+    <svg class="triLeaf" width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(-90)" fill="#4ade80" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(30)" fill="#74b9ff" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(150)" fill="#fbbf24" opacity="0.9"/>
+      <circle cx="54" cy="46" r="9" fill="#1c3354"/>
+    </svg>
+    <span class="nav-logo-text"><span>D³</span> Daily Diet Diary</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="features.html">Features</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="privacy-policy.html">Privacy</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-leaf">
+    <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(-90)" fill="#4ade80" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(30)" fill="#74b9ff" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(150)" fill="#fbbf24" opacity="0.9"/>
+      <circle cx="54" cy="46" r="9" fill="#1c3354"/>
+    </svg>
+  </div>
+  <h1>Your diet diary.<br><span class="d3">Your way. Your device.</span></h1>
+  <p>D³ Daily Diet Diary is a private, ad-free nutrition and wellness tracker that lives entirely on your phone — no accounts, no cloud, no data collection.</p>
+  <div class="hero-btns">
+    <a class="btn btn-primary" href="#">App Store</a>
+    <a class="btn btn-outline" href="#">Google Play</a>
+  </div>
+  <div class="badge-row">
+    <span class="badge">🔒 100% Private</span>
+    <span class="badge">🚫 No Ads</span>
+    <span class="badge">💰 Free</span>
+    <span class="badge">📵 Works Offline</span>
+    <span class="badge">👤 No Account Needed</span>
+  </div>
+</section>
+
+<!-- Key features -->
+<div class="section">
+  <div class="section-label">What D³ Does</div>
+  <h2 class="section-title">Everything you need to understand your diet</h2>
+  <p class="section-sub">Log, score, and analyze your nutrition and wellness habits — all in one place, all on-device.</p>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <span class="feature-icon">📊</span>
+      <h3>Daily Quality Scoring</h3>
+      <p>Rate your diet quality (QUAL) each day. A single score that summarizes how well you ate, with weekly averages and visual trends.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏆</span>
+      <h3>Sweets & Snacks Budget</h3>
+      <p>Track your weekly indulgences against a configurable budget. Green when you're under, amber when close, red when over.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🍽️</span>
+      <h3>Meal Notes</h3>
+      <p>Log breakfast, lunch, dinner, and snacks as free-form notes. No calorie counting — just awareness of what you ate.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏃</span>
+      <h3>Exercise Logging</h3>
+      <p>Track walks, runs, bike rides, gym sessions, yoga, yard work, and more — by distance or duration.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📝</span>
+      <h3>Health Notes & Tags</h3>
+      <p>Log how you feel with custom symptom and mood tags. Felt Great, Knee Pain, Low Energy — you define what matters.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">⚖️</span>
+      <h3>Weight Tracking</h3>
+      <p>Log weekly weight and view a neutral trend chart — no green for loss or red for gain, because everyone's goals are different.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🔍</span>
+      <h3>Correlations Engine</h3>
+      <p>After 30+ days of logging, D³ automatically detects patterns between foods, medications, and your health outcomes.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📈</span>
+      <h3>Trends & History</h3>
+      <p>Sparkline charts for diet quality, S&S, exercise, weight, and health notes across 3 months, 6 months, a year, or all time.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📄</span>
+      <h3>Shareable Reports</h3>
+      <p>Export beautiful weekly, monthly, and trends PDF reports — perfect for sharing with a doctor, dietitian, or personal trainer.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Stats band -->
+<div class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-val">5</span>
+      <div class="stat-label">Tracking categories</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-val">0</span>
+      <div class="stat-label">Calories to count</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-val">0</span>
+      <div class="stat-label">Ads, ever</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-val">0</span>
+      <div class="stat-label">Bytes sent to cloud</div>
+    </div>
+  </div>
+</div>
+
+<!-- Privacy section -->
+<div class="section-alt-inner">
+  <div class="section" style="padding-top: 0; padding-bottom: 0;">
+    <div class="section-label">Privacy First</div>
+    <h2 class="section-title">Your data never leaves your phone</h2>
+    <p class="section-sub">D³ was built from the ground up with privacy as a core principle — not an afterthought.</p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon">📵</span>
+        <h3>No Internet Required</h3>
+        <p>D³ works completely offline. All data is stored locally on your device using your phone's built-in secure storage.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔒</span>
+        <h3>No Accounts</h3>
+        <p>No signup, no login, no email address. Your health data belongs to you — not to a tech company.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📊</span>
+        <h3>No Analytics</h3>
+        <p>We don't track which features you use, how long you spend in the app, or anything else. Zero telemetry.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">💎</span>
+        <h3>No Ads, No IAP</h3>
+        <p>D³ is completely free with no ads and no in-app purchases. No subscription required, ever.</p>
+      </div>
+    </div>
+
+    <p style="margin-top: 28px;">
+      <a href="privacy-policy.html" style="color: var(--green); font-weight: 700; text-decoration: none; font-size: 15px;">Read our full Privacy Policy →</a>
+    </p>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-band">
+  <h2>Start tracking your diet today</h2>
+  <p>Free on iPhone and Android. No account required.</p>
+  <a class="btn-cta" href="#">Download D³</a>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="support.html">Support</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </div>
+  <p>© 2025 Jacked Arts L.L.C. &nbsp;·&nbsp; D³ Daily Diet Diary &nbsp;·&nbsp; <a href="mailto:gteam@jackedarts.com">gteam@jackedarts.com</a></p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+</body>
+</html>

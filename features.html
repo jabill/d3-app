@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features — D³ Daily Diet Diary</title>
+  <meta name="description" content="Explore all the features of D³ Daily Diet Diary — diet scoring, S&S budgets, exercise logs, health notes, weight tracking, correlations, trends, and shareable reports.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">
+    <svg class="triLeaf" width="32" height="32" viewBox="0 0 100 100">
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(-90)" fill="#4ade80" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(30)" fill="#74b9ff" opacity="0.9"/>
+      <ellipse rx="18" ry="36" transform="translate(54,46) rotate(150)" fill="#fbbf24" opacity="0.9"/>
+      <circle cx="54" cy="46" r="9" fill="#1c3354"/>
+    </svg>
+    <span class="nav-logo-text"><span>D³</span> Daily Diet Diary</span>
+  </a>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="features.html" class="active">Features</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="privacy-policy.html">Privacy</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <h1>Features</h1>
+  <p>A complete picture of your diet and wellness — privately, on your device.</p>
+</div>
+
+<!-- Today Tab -->
+<div class="section">
+  <div class="section-label">Today Tab</div>
+  <h2 class="section-title">Your daily command center</h2>
+  <p class="section-sub">Everything you need to log a day — meals, exercise, health notes, weight, and a quality score.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <span class="feature-icon">📊</span>
+      <h3>QUAL Score</h3>
+      <p>Rate your diet quality for the day on a 0–100 scale. Color-coded green (excellent), lime (good), amber (watch), or red (poor). A single number that tells the story.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏆</span>
+      <h3>Sweets & Snacks Tracker</h3>
+      <p>Log your daily "indulgence servings" against a configurable weekly budget (default 12). The app shows weekly totals with color-coded bars — at a glance you know where you stand.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🍽️</span>
+      <h3>Meal Notes</h3>
+      <p>Four flexible meal slots — Breakfast, Lunch, Dinner, and Snacks. Write what you ate in plain language. No food database hunting, no macro arithmetic. Just awareness.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏃</span>
+      <h3>Exercise Log</h3>
+      <p>Log any number of activities per day. Distance-based (Walk/Hike, Run, Bike) or duration-based (Gym, Yoga, Work, Other). Supports custom icons and labels for each session.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📝</span>
+      <h3>Health Notes & Tags</h3>
+      <p>Attach freeform health notes and select from custom symptom/mood tags you define in Settings. Felt Great, Knee Pain, Poor Sleep — track what matters to you.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">⚖️</span>
+      <h3>Weekly Weight</h3>
+      <p>Log your weight once a week. The app stores it per week-start date and builds a trend chart over time — without moralizing about whether the number went up or down.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Month Tab -->
+<div class="section-alt-inner">
+  <div class="section" style="padding-top:0;padding-bottom:0;">
+    <div class="section-label">Month Tab</div>
+    <h2 class="section-title">See the whole month at once</h2>
+    <p class="section-sub">A calendar and weekly bars that reveal patterns across 4–5 weeks.</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon">📅</span>
+        <h3>QUAL Calendar</h3>
+        <p>Every logged day shows a color dot (green → red by tier) and your S&S count. Missed days are visible at a glance — a quiet motivator to stay consistent.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📈</span>
+        <h3>Weekly Summary Bars</h3>
+        <p>Horizontal bars for average QUAL and total S&S, by week. Each bar is color-coded against your budget so you can spot the good weeks and the rough ones.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">⚖️</span>
+        <h3>Weight Trend Chart</h3>
+        <p>An SVG line chart of your weekly weights for the month. Line breaks where data is missing — no interpolation. Neutral blue throughout, no directional bias.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🏃</span>
+        <h3>Exercise Sparklines</h3>
+        <p>Mini bar charts for each exercise type — one bar per week in the month. The number beside each row shows your monthly total for that activity.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">📄</span>
+        <h3>Weekly Report</h3>
+        <p>Generate a beautiful 7-column landscape PDF — one column per day — with meals, exercise, health tags, and scores. Share via AirDrop, Mail, or print to PDF.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔍</span>
+        <h3>Correlations</h3>
+        <p>After 30+ days of logging, D³ shows detected patterns between the foods or medications you track and your health tag outcomes. Silent until it has something real to say.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- History Tab -->
+<div class="section">
+  <div class="section-label">History Tab</div>
+  <h2 class="section-title">Long-term trends, three ways</h2>
+  <p class="section-sub">Trends, Calendar, and List views — zoom out to see your arc over months and years.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <span class="feature-icon">📊</span>
+      <h3>Trends View</h3>
+      <p>Sparkline charts for Diet (QUAL + S&S), Weight, Exercise, Health Notes, and Correlations. Switch between 3M, 6M, 1Y, and ALL. Each bar represents one week.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🎨</span>
+      <h3>Color-coded Bars</h3>
+      <p>QUAL bars are green/lime/amber/red by tier. S&S bars are green when under budget, amber when slightly over, red when well over. Health Notes bars are a neutral blue — frequency data, no judgment.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📅</span>
+      <h3>Calendar View</h3>
+      <p>Navigate any month you've logged in. Tap any day to jump to that day's entry in the Today tab.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📋</span>
+      <h3>List View</h3>
+      <p>A searchable, filterable chronological list of every logged day. Search meal notes by keyword or filter by any health tag.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📤</span>
+      <h3>History Report</h3>
+      <p>Export a landscape PDF summary of your full selected date range — QUAL and S&S by week, exercise by type, health note frequency. Share with your healthcare provider.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🔍</span>
+      <h3>Correlations in History</h3>
+      <p>The same correlations engine runs in History Trends, using all your logged data regardless of the selected range window.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Correlations detail -->
+<div class="section-alt-inner">
+  <div class="section" style="padding-top:0;padding-bottom:0;">
+    <div class="section-label">Correlations Engine</div>
+    <h2 class="section-title">Patterns that emerge over time</h2>
+    <p class="section-sub">D³ analyzes your logged data to surface meaningful relationships — automatically, privately, on-device.</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🍽️</span>
+        <h3>Food Correlations</h3>
+        <p>Mark a food attribute as "watching" in Settings. D³ tracks days when that food appeared in your meal notes and compares your health tag rates — exposed days vs. baseline — using a configurable lag window.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">💊</span>
+        <h3>Medication Correlations</h3>
+        <p>Log medication changes in Settings. After sufficient data accumulates (lag period + 7 days), D³ compares symptom rates before and after the change. Requires baseline data from before the change to be meaningful.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🎯</span>
+        <h3>Statistical Gates</h3>
+        <p>Correlations only surface when there's enough data to be meaningful — at least 30 logged days, a minimum exposure count, and a ≥15% difference between exposed and baseline rates. Silent when data is thin.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Settings & customization -->
+<div class="section">
+  <div class="section-label">Customization</div>
+  <h2 class="section-title">Tailored to you</h2>
+  <p class="section-sub">D³ adapts to your lifestyle, not the other way around.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <span class="feature-icon">🎨</span>
+      <h3>Accent Colors</h3>
+      <p>Choose from eight accent presets (Forest, Teal, Purple, Pink, Orange, Blue, Red, Sky) to personalize the app's look.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🌙</span>
+      <h3>Dark & Light Mode</h3>
+      <p>Follows your device setting automatically, or override manually in Settings. True dark theme — not just dimmed.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏆</span>
+      <h3>S&S Budget</h3>
+      <p>Configure your weekly Sweets & Snacks budget — total and per-category (breakfast, lunch, dinner, snacks). Default is 12 servings per week.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏷️</span>
+      <h3>Custom Health Tags</h3>
+      <p>Create any symptom, mood, or activity tags that matter to your situation — from "Knee Pain" and "Brain Fog" to "Meditation" and "Gratitude."</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🏃</span>
+      <h3>Exercise Types</h3>
+      <p>Customize exercise icons and add activity types that match your workout routine.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">⚖️</span>
+      <h3>Weight Units</h3>
+      <p>Log and display weight in lbs or kg — set once in Display Preferences and it applies everywhere.</p>
+    </div>
+  </div>
+  <div class="pill-row" style="margin-top: 32px;">
+    <span class="pill">No Ads</span>
+    <span class="pill">No In-App Purchases</span>
+    <span class="pill">No Account</span>
+    <span class="pill">100% Offline</span>
+    <span class="pill">iOS &amp; Android</span>
+    <span class="pill">Free Forever</span>
+  </div>
+</div>
+
+<div class="cta-band">
+  <h2>Ready to take control of your diet?</h2>
+  <p>Download D³ free on the App Store or Google Play.</p>
+  <a class="btn-cta" href="#">Download Now</a>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="support.html">Support</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </div>
+  <p>© 2025 Jacked Arts L.L.C. &nbsp;·&nbsp; D³ Daily Diet Diary &nbsp;·&nbsp; <a href="mailto:gteam@jackedarts.com">gteam@jackedarts.com</a></p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+</body>
+</html>
